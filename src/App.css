@@ -79,3 +79,10 @@ main {
 .questions li:last-child {
   margin: 0;
 }
+
+.answer {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-style: italic;
+}

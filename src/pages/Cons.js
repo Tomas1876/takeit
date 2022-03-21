@@ -13,7 +13,7 @@ const Cons = () => {
                 <CustomInput props={"target"} />
             </div>
             <div className="button-box">
-                <Link to="/result"><Button title="다음"></Button></Link>
+                <Link to="/result"><Button title="결과확인"></Button></Link>
             </div>
         </>
     );
