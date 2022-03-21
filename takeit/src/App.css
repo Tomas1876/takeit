@@ -6,8 +6,38 @@
 
 body {
   width: 100%;
+  height: 100%;
 }
 
 ul {
   list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-box {
+  width: 80%;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  margin-top: 50px;
 }
