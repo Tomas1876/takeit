@@ -5,7 +5,7 @@ const StyledButton = StyledComponent.button`
     width: 100px;
     height: 30px;
     color: ${(props) => props.color || 'white'};
-    background-color: ${(props) => props.background || 'blue'};
+    background-color: ${(props) => props.background || '#4B89DC'};
 `;
 const Button = (props) => {
 
