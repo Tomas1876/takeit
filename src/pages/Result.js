@@ -6,15 +6,10 @@ import Button from '../components/Button';
 const Result = () => {
     return (
         <>
-            <p className="text">
-                고민 중인 물건을 적어주세요
-            </p>
-            <div className="input-box">
-                <CustomInput props={"target"} />
-            </div>
-            <div className="button-box">
-                <Link to="/"><Button title="홈으로"></Button></Link>
-            </div>
+            <p className="result">사세요</p>
+            <ul className="questions">
+                <li><Link to="/questions">왜 사야 하나요?</Link></li>
+            </ul>
         </>
     );
 }
