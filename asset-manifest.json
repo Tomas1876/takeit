@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/takeit/static/css/main.1d1dbc93.css",
+    "main.js": "/takeit/static/js/main.1b2a0e36.js",
+    "static/js/787.e63b159a.chunk.js": "/takeit/static/js/787.e63b159a.chunk.js",
+    "index.html": "/takeit/index.html",
+    "main.1d1dbc93.css.map": "/takeit/static/css/main.1d1dbc93.css.map",
+    "main.1b2a0e36.js.map": "/takeit/static/js/main.1b2a0e36.js.map",
+    "787.e63b159a.chunk.js.map": "/takeit/static/js/787.e63b159a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d1dbc93.css",
+    "static/js/main.1b2a0e36.js"
+  ]
+}
