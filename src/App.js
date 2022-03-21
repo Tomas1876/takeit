@@ -12,13 +12,15 @@ function App() {
     <>
       <Header />
       <main>
-        <div class="main-box">
+        <div className="main-box">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/pros" element={<Pros />} />
             <Route path="/cons" element={<Cons />} />
             <Route path="/result" element={<Result />} />
-            <Route path="/questions" element={<Questions />} />
+            <Route path="/questions:why" element={<Questions />} />
+            <Route path="/questions:howtosavemoney" element={<Questions />} />
+            <Route path="/questions:whatsthematterwithyou" element={<Questions />} />
           </Routes>
         </div>
       </main>

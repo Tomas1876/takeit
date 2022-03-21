@@ -20,6 +20,15 @@ input {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+  color: #4b89dc;
+}
+
+a:hover {
+  color: #fff;
+}
+
 #root {
   width: 100vw;
   height: 100vh;
@@ -52,4 +61,21 @@ main {
   font-size: 200px;
   line-height: 202px;
   font-weight: bold;
+}
+
+.questions {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.questions li {
+  width: 130px;
+  margin-right: 10px;
+}
+
+.questions li:last-child {
+  margin: 0;
 }
